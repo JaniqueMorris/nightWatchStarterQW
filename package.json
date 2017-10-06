@@ -2,7 +2,7 @@
   "name": "nightwatch_starter",
   "version": "1.0.0",
   "description": "Nightwatch.js ES2015 starter project.",
-  "main": "nightwatch.json",
+  "main": "nightwatch.conf.json",
   "scripts": {
     "test": "nightwatch -e"
   },
@@ -20,14 +20,16 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/qualityworksjmmb/nightwatch_starter#readme",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "chromedriver": "^2.29.0",
     "mocha": "^3.4.2",
     "nightwatch": "^0.9.15",
-    "selenium-server-standalone-jar": "^3.4.0"
+    "selenium-server-standalone-jar": "3.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.24.1"
   }
